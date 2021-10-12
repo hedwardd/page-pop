@@ -1,0 +1,13 @@
+{
+  "name": "Page pop",
+  "description": "Saves web pages to a list and retrieves them in a random order",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
